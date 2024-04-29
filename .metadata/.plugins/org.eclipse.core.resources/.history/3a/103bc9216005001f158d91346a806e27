@@ -1,0 +1,13 @@
+package com.app.ServiceRegistrationServer;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class ServiceRegistrationServerApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(ServiceRegistrationServerApplication.class, args);
+	}
+
+}
